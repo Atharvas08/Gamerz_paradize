@@ -15,7 +15,7 @@ html,body{
     background-color: #001c4d !important;
 }
 .me-2{
-    width: 600px !important;
+    width: 350px !important;
 }
 #home{
     display: flex;
@@ -160,24 +160,7 @@ h2{
     color: #FC4803;
     font-weight:bold;
 }
-#pbtn{
-    display: flex;
-    color: #ffff;
-    background: #FC5515;
-    padding: 10px 16px;
-    margin: 8px auto;
-    cursor: pointer;
-    width: 10rem;
-    justify-content: center;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 16px;
-    border: none;
-}
-#pbtn:hover{
-    color:#FC5515;
-    background:#ffff ;
-}
+
 h3{
     font-size: 40px;
     text-align: center;
@@ -295,8 +278,25 @@ footer .container{
  .carousel-control-next-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%232095F3' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
 }
-/* @media only screen and(max-width:768px){
-    #home{
-        width: 100%;
+
+@media only screen and (max-width:768px){
+    form{
+        display: flex;
+        flex-wrap: wrap;
     }
-} */
+    .me-2{
+        width: 250px !important;
+        margin-bottom: 2px !important;
+        margin-top: 2px !important;
+    }
+    
+}
+
+.btnc{
+    background-color: #2e86de !important;
+    color: #ffffff !important;
+}
+.btnc:hover{
+    background-color: #084079e1 !important;
+    color: #ffffff !important;
+}
