@@ -289,6 +289,10 @@ footer .container{
         margin-bottom: 2px !important;
         margin-top: 2px !important;
     }
+    .respft{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
     
 }
 
